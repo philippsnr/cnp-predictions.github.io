@@ -1,11 +1,11 @@
 {
-    "name": "cnppredictions",
-    "short_name": "cnppredictions",
+    "name": "CNP Predictions",
+    "short_name": "CNP",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Football predictions based on AI",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
