@@ -51480,7 +51480,7 @@ l=m==null&&!0
 l=l?B.v0:f
 return A.VO(s,A.b1(A.aq(f,A.ch(A.aq(f,new A.Eo(new A.as0(!0,!0,!0,j,g),f,B.T,!1,m,f,l,!1,f,12,B.J,B.Ls,f,B.X,f),B.k,B.hn,f,f,n,f,f,f,o),f,f),B.k,f,f,B.iZ,f,f,f,f,f),q.a.b,p.a.a),f)},
 a6i(){var s=null,r=$.AG,q=A.jH('\n<h1 style="text-align: center;"><span style="color: #ffffff;">CNP-Predictions</span></h1><h3 style="text-align: center;"><span style="color: #ffffff;">Football predictions based on AI</span></h3>\n\n'),p=A.ah(255,84,17,145)
-return A.b1(A.eh(A.a([q,A.fT(A.b1(A.aq(s,A.ch(A.jH('\n<p style="text-align: center;"><span style="color: #ffffff;">Competitions <strong>\u2794</strong></span></p>\n\n'),s,s),B.k,p,s,s,s,s,s,s,s),40,130),new A.aD2(),s)],t.p),B.G,B.aV,B.N,B.an),r-56,s)},
+return A.b1(A.eh(A.a([q,A.fT(A.b1(A.aq(s,A.ch(A.jH('\n<p style="text-align: center;"><span style="color: #ffffff;">Competitions <strong> \u2794</strong></span></p>\n\n'),s,s),B.k,p,s,s,s,s,s,s,s),40,130),new A.aD2(),s)],t.p),B.G,B.aV,B.N,B.an),r,s)},
 a6g(){var s=null
 return A.eh(A.a([A.b1(A.jH('<h1 style="text-align: center;"><span style="color: #ffffff;">Social Media</span></h1>'),s,s),A.ph(!1,!0,B.aSj,s,!0,s,s,s,s,s,s,s,s,s,new A.aD0(),s,s,s,s),A.b1(A.jH(""),s,s),A.ph(!1,!0,B.aSf,s,!0,s,s,s,s,s,s,s,s,s,new A.aD1(),s,s,s,s),A.b1(A.jH(""),s,s)],t.p),B.G,B.a0,B.N,B.an)},
 a5U(){var s=null,r=t.p
@@ -51504,7 +51504,7 @@ A.a9J.prototype={
 $0(){return A.vt(A.hu("https://www.instagram.com/ifelix.gr/",0,null))},
 $S:0}
 A.a9K.prototype={
-$0(){return A.vt(A.hu("https://www.instagram.com/alex.str/",0,null))},
+$0(){return A.vt(A.hu("https://www.instagram.com/alex.str_/",0,null))},
 $S:0}
 A.a9W.prototype={
 $0(){A.MX(this.a,"/datenschutz")},
