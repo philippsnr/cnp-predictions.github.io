@@ -51397,25 +51397,25 @@ case 1:return A.U(q,r)}})
 return A.V($async$zQ,r)},
 ak(){return new A.a3Y(B.o)}}
 A.a3Y.prototype={
-L(a){var s,r,q,p,o=this,n=null,m="assets/images/prem/",l=A.am(n,n,B.j,n,n,n,n,n,n,n,n),k=o.a,j=k.y
-if(j==="FINISHED"){k=A.bq(""+k.r+" : "+k.w,n,B.cR,n,n)
-j=A.aN(255,84,17,145)
-l=A.dX(A.a([k,B.tn,A.aj6(A.be(A.cg(A.bq("Ergebnis",n,B.cR,n,n),n,n),20,100),n,j,n)],t.p),B.G,B.aV,B.M,B.ai)}else if(j==="TIMED"){s=J.aJv(A.aOH("dd.MM.yyyy HH:mm").vS(k.x).split(" ")[1],":")
-k=A.bq(""+(A.cj(s[0],n)+2)+":"+A.h(s[1]),n,B.cR,n,n)
-j=A.be(n,5,n)
+L(a){var s,r,q,p,o=this,n=null,m="assets/images/trikots/",l="assets/images/prem/",k=A.am(n,n,B.j,n,n,n,n,n,n,n,n),j=o.a,i=j.y
+if(i==="FINISHED"){j=A.bq(""+j.r+" : "+j.w,n,B.cR,n,n)
+i=A.aN(255,84,17,145)
+k=A.dX(A.a([j,B.tn,A.aj6(A.be(A.cg(A.bq("Ergebnis",n,B.cR,n,n),n,n),20,100),n,i,n)],t.p),B.G,B.aV,B.M,B.ai)}else if(i==="TIMED"){s=J.aJv(A.aOH("dd.MM.yyyy HH:mm").vS(j.x).split(" ")[1],":")
+j=A.bq(""+(A.cj(s[0],n)+2)+":"+A.h(s[1]),n,B.cR,n,n)
+i=A.be(n,5,n)
 r=A.aN(255,84,17,145)
-l=A.dX(A.a([k,j,A.aj6(A.be(A.cg(A.bq("Analyse",n,B.cR,n,n),n,n),20,100),r,n,new A.aD9(o))],t.p),B.G,B.aV,B.M,B.ai)}else if(j==="LOADING")l=new A.jH(k.zQ(k.z),new A.aDa(o,B.cR),n,n,t.rt)
-k=o.a
-if(k.y==="PREDICTED")l=A.dX(A.a([A.bq(""+k.r+" : "+k.w,n,B.cR,n,n),B.tn,A.aj6(A.be(A.cg(A.bq("Vorhersage",n,B.cR,n,n),n,n),20,100),n,B.aAd,n)],t.p),B.G,B.aV,B.M,B.ai)
-k=t.p
-if($.r6>1000){j=A.wW(m+A.h($.a7n().i(0,o.a.c))+".png",n,n,n)
+k=A.dX(A.a([j,i,A.aj6(A.be(A.cg(A.bq("Analyse",n,B.cR,n,n),n,n),20,100),r,n,new A.aD9(o))],t.p),B.G,B.aV,B.M,B.ai)}else if(i==="LOADING")k=new A.jH(j.zQ(j.z),new A.aDa(o,B.cR),n,n,t.rt)
+j=o.a
+if(j.y==="PREDICTED")k=A.dX(A.a([A.bq(""+j.r+" : "+j.w,n,B.cR,n,n),B.tn,A.aj6(A.be(A.cg(A.bq("Vorhersage",n,B.cR,n,n),n,n),20,100),n,B.aAd,n)],t.p),B.G,B.aV,B.M,B.ai)
+j=t.p
+if($.r6>1000){i=A.wW(m+A.h($.a7n().i(0,o.a.c))+".png",n,n,n)
 r=o.a
 q=A.be(A.bq(r.c,n,B.cR,B.iJ,n),n,250)
-p=A.be(l,n,140)
+p=A.be(k,n,140)
 r=r.e
-return A.am(n,A.be(A.d7(A.a([j,B.Mc,q,B.Mb,p,B.Mb,A.be(A.bq(r,n,B.cR,B.eU,n),n,250),B.Mc,A.wW(m+A.h($.a7n().i(0,r))+".png",n,n,n)],k),B.G,n,B.aV,B.M,n,n),60,n),B.j,n,n,n,n,n,n,n,n)}else{j=o.a
-r=j.c
-return A.am(n,A.dX(A.a([A.bq(r+" - "+j.e,n,B.cR,n,n),A.be(n,15,n),A.d7(A.a([A.be(A.wW(m+A.h($.a7n().i(0,r))+".png",n,n,n),n,40),l,A.be(A.wW(m+A.h($.a7n().i(0,o.a.e))+".png",n,n,n),n,40)],k),B.G,n,B.aV,B.M,n,n)],k),B.G,B.a0,B.M,B.ai),B.j,n,n,n,n,n,n,n,n)}}}
+return A.am(n,A.be(A.d7(A.a([i,B.Mc,q,B.Mb,p,B.Mb,A.be(A.bq(r,n,B.cR,B.eU,n),n,250),B.Mc,A.wW(m+A.h($.a7n().i(0,r))+".png",n,n,n)],j),B.G,n,B.aV,B.M,n,n),60,n),B.j,n,n,n,n,n,n,n,n)}else{i=o.a
+r=i.c
+return A.am(n,A.dX(A.a([A.bq(r+" - "+i.e,n,B.cR,n,n),A.be(n,15,n),A.d7(A.a([A.be(A.wW(l+A.h($.a7n().i(0,r))+".png",n,n,n),n,40),k,A.be(A.wW(l+A.h($.a7n().i(0,o.a.e))+".png",n,n,n),n,40)],j),B.G,n,B.aV,B.M,n,n)],j),B.G,B.a0,B.M,B.ai),B.j,n,n,n,n,n,n,n,n)}}}
 A.aD9.prototype={
 $0(){var s=this.a
 s.a5(new A.aD8(s))},
@@ -110373,7 +110373,7 @@ r($,"be_","aW3",()=>A.Dt(null,t.i1))
 r($,"be9","aW4",()=>A.Dt(null,t.i1))
 r($,"bdZ","aMQ",()=>A.Dt(null,t.i1))
 r($,"bji","a7n",()=>{var q=t.N
-return A.a3(["FC Bayern M\xfcnchen","default","SC Freiburg","default","1. FC Union Berlin","default","Borussia Dortmund","default","RB Leipzig","default","Eintracht Frankfurt","default","VfL Wolfsburg","default","Borussia M\xf6nchengladbach","default","1. FSV Mainz 05","default","Bayer 04 Leverkusen","default","SV Werder Bremen","default","1. FC K\xf6ln","default","FC Augsburg","default","VfB Stuttgart","default","TSG 1899 Hoffenheim","default","Hertha BSC","default","FC Schalke 04","default","VfL Bochum 1848","default","Manchester City FC","man_city","Arsenal FC","arsenal","Newcastle United FC","new_castle","Manchester United FC","man_united","Liverpool FC","liverpool","Tottenham Hotspur FC","tottenham","Brighton & Hove Albion FC","brighton","Aston Villa FC","aston_villa","Brentford FC","brentford","Fulham FC","fulham","Chelsea FC","chelsea","Crystal Palace FC","crystal_palace","Wolverhampton Wanderers FC","wolverhampton","AFC Bournemouth","bournemouth","West Ham United FC","west_ham","Nottingham Forest FC","nothingham_forest","Everton FC","everton","Leicester City FC","leicester_city","Leeds United FC","leeds_united","Southampton FC","southampton"],q,q)})
+return A.a3(["FC Bayern M\xfcnchen","bayern","SC Freiburg","freiburg","1. FC Union Berlin","union_berlin","Borussia Dortmund","dortmund","RB Leipzig","leipzig","Eintracht Frankfurt","frankfurt","VfL Wolfsburg","wolfsburg","Borussia M\xf6nchengladbach","gladbach","1. FSV Mainz 05","mainz","Bayer 04 Leverkusen","leverkusen","SV Werder Bremen","bremen","1. FC K\xf6ln","k\xf6ln","FC Augsburg","augsburg","VfB Stuttgart","stuttgart","TSG 1899 Hoffenheim","hoffenheim","Hertha BSC","hertha","FC Schalke 04","schalke","VfL Bochum 1848","bochum","Manchester City FC","man_city","Arsenal FC","arsenal","Newcastle United FC","new_castle","Manchester United FC","man_united","Liverpool FC","liverpool","Tottenham Hotspur FC","tottenham","Brighton & Hove Albion FC","brighton","Aston Villa FC","aston_villa","Brentford FC","brentford","Fulham FC","fulham","Chelsea FC","chelsea","Crystal Palace FC","crystal_palace","Wolverhampton Wanderers FC","wolverhampton","AFC Bournemouth","bournemouth","West Ham United FC","west_ham","Nottingham Forest FC","nothingham_forest","Everton FC","everton","Leicester City FC","leicester_city","Leeds United FC","leeds_united","Southampton FC","southampton"],q,q)})
 s($,"bhg","aXQ",()=>A.aL1(1,1,500))
 s($,"biL","aYO",()=>new A.ZT())
 s($,"bhC","aY7",()=>A.iI(B.ij,B.i,t.EP))
