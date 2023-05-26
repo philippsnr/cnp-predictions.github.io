@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "b77107fbbfe22cd5a67c22ca5bc7220e",
+  "assets/AssetManifest.json": "1c960dd92c9165a32a67cd1445a0b7ac",
 "assets/assets/images/flags/deutschland.png": "d56c9baf89adf429154f494ffba0e956",
 "assets/assets/images/flags/england.png": "89c629d2c8a38735881d864cb110cf45",
 "assets/assets/images/flags/frankreich.png": "c7096c974f3f35ad5f82c21f8bd15b72",
@@ -41,6 +41,7 @@ const RESOURCES = {
 "assets/assets/images/trikots/man_united.png": "ac9567020dc261ab4bf6b206725a9748",
 "assets/assets/images/trikots/new_castle.png": "bde1db09bc8fb296ebb900f3e5b2b444",
 "assets/assets/images/trikots/nothingham_forest.png": "e89c36480f15732e884ed2564fa075d5",
+"assets/assets/images/trikots/null.png": "1051604c1bb409542af02388b65522ba",
 "assets/assets/images/trikots/schalke.png": "dac980e53149c2f9e83aeadf10168eb0",
 "assets/assets/images/trikots/southampton.png": "4b587fe1f0ff8ef0dc56b6da3cdd62d1",
 "assets/assets/images/trikots/stuttgart.png": "51819201c89bfdf8fe431ef6cfbed257",
@@ -51,7 +52,7 @@ const RESOURCES = {
 "assets/assets/images/trikots/wolverhampton.png": "4b1c5e364f409d825a346985f5c06813",
 "assets/FontManifest.json": "71a4a82de411f155107da3f8dac64ebd",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "6c6b2a9189db98d3d8c37c688274a10b",
+"assets/NOTICES": "64212e016169910b21c3d4095d2800d0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Bold.ttf": "a9c8e437146ef63fcd6fae7cf65ca859",
@@ -96,9 +97,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96587b417cf2a3eb5faa3dccb387db10",
 "icons/Icon-maskable-192.png": "cecb448279b0aa1838ba637b92df2dee",
 "icons/Icon-maskable-512.png": "96587b417cf2a3eb5faa3dccb387db10",
-"index.html": "a90fa30096c27edcce62c430ef110034",
-"/": "a90fa30096c27edcce62c430ef110034",
-"main.dart.js": "ba6ba7f67aa673f6a9d98a5647b546d6",
+"index.html": "fad477584b1c363cad33ff4dd8c3912a",
+"/": "fad477584b1c363cad33ff4dd8c3912a",
+"main.dart.js": "eed9569d6b0096419964078d309ad697",
 "manifest.json": "6c02ce9f69de8afcb36e157342758790",
 "version.json": "37c8975b4fbe68189eb3af1c7740d423"
 };
