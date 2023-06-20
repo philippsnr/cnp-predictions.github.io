@@ -37,23 +37,30 @@
 .competitions
 {
     padding-left: 5%;
-    padding-top: 5%;
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .competitions button
 {
     border-radius: 12px;
-    display: block;
-    margin-bottom: 15%;
+    display: flex;
+    align-items: center;
+    width: 100%;
 
     cursor: pointer;
     position: relative;
-    padding: 10px 24px;
-    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 24px;
+    font-size: 22px;
     color: #F8FABB;
     border: 2px solid #F8FABB;
-    border-radius: 34px;
+    border-radius: 60px;
     background-color: transparent;
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
@@ -72,12 +79,12 @@
     scale: 0;
     z-index: -1;
     background-color: #F8FABB;
-    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
 .competitions button:hover::before 
 {
-    scale: 4;
+    scale: 6;
 }
   
 .competitions button:hover 
@@ -90,4 +97,13 @@
 .competitions button:active 
 {
     scale: 1;
+}
+
+.flag
+{
+    border: 2px solid #F8FABB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
