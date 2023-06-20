@@ -1,0 +1,93 @@
+.container
+{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background-color: aqua;
+}
+
+.navigation-bar
+{
+    background-color: #444444;
+    height: 8%;
+}
+
+.main
+{
+    border-top: 3px solid #F8FABB;
+    border-bottom: 3px solid #F8FABB;
+    background-color: #444444;
+    height: 84%;
+    display: flex;
+}
+
+.bottom
+{
+    background-color: #444444;
+    height: 8%;
+}
+
+.logo
+{
+    margin: auto;
+}
+
+.competitions
+{
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 25%;
+}
+
+.competitions button
+{
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 15%;
+
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: #F8FABB;
+    border: 2px solid #F8FABB;
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+
+.competitions button::before 
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: #F8FABB;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.competitions button:hover::before 
+{
+    scale: 3;
+}
+  
+.competitions button:hover 
+{
+    color: #444444;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+  
+.competitions button:active 
+{
+    scale: 1;
+}
