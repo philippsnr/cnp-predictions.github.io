@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message = $_POST["Message"];
 
   // Create the email message
-  $to = "alex.strauss05@gmx.net";
+  $to = "philipp.eckhard.staudinger@gmail.com";
   $subject = "New Contact Message";
   $body = "Name: " . $name . "\n";
   $body .= "Email: " . $email . "\n";
