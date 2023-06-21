@@ -121,3 +121,14 @@
         background-size: 100%;
     }
 }
+
+@media (pointer:none), (pointer:coarse) 
+{
+    .logo{
+        width: 0px;
+      }
+      .competitions
+      {
+          background-size: 100%;
+      }
+}
