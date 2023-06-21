@@ -36,11 +36,8 @@
 
 .competitions
 {
-    background-image: url("assets\\logo-files-cyan\\logo-no-background.png");
-    background-size: 0%;
-    background-repeat: no-repeat;
-    background-position-y: center;
     padding-left: 5%;
+    padding-right: 5%;
     width: max(25%, 500px);
     display: flex;
     flex-direction: column;
@@ -112,23 +109,44 @@
     margin-right: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .logo{
+.small-logo-container
+{
+    width : 100%;
+    background-image: url("assets\\cnp-predictions-logo\\png\\logo-no-background.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+@media screen and (max-width: 700px) {
+    .logo
+    {
       width: 0px;
+    }
+    .small-logo-container
+    {
+        height: 17%;
     }
     .competitions
     {
-        background-size: 100%;
+        width: 100%;
     }
 }
 
 @media (pointer:none), (pointer:coarse) 
 {
-    .logo{
+    .logo
+    {
         width: 0px;
-      }
-      .competitions
-      {
-          background-size: 100%;
-      }
+    }
+    .small-logo-container
+    {
+        width: min(100%, 700px);
+        height: 17%;
+    }
+    .competitions
+    {
+        width: 100%;
+    }
 }
