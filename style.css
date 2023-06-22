@@ -118,45 +118,11 @@
 {
     width : 100%;
     background-image: url("assets\\cnp-predictions-logo\\png\\logo-no-background.png");
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
 }
-
-@media screen and (max-width: 700px) {
-    .logo
-    {
-      width: 0px;
-    }
-    .small-logo-container
-    {
-        height: 17%;
-    }
-    .competitions
-    {
-        width: 100%;
-    }
-}
-
-@media (pointer:none), (pointer:coarse) 
-{
-    .logo
-    {
-        width: 0px;
-    }
-    .small-logo-container
-    {
-        width: min(100%, 700px);
-        height: 17%;
-    }
-    .competitions
-    {
-        width: 100%;
-    }
-}
-
-
 
 .navigation-bar button
 {
@@ -211,4 +177,64 @@
 .navigation-bar button:active
 {
     scale: 1;
+}
+
+.text-container::-webkit-scrollbar 
+{
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.text-container 
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: "Lucida Sans Unicode", Times, serif;
+    font-size: 20px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@media screen and (max-width: 700px) and (any-pointer:fine) {
+    .logo
+    {
+        width: 0px;
+    }
+    .small-logo-container
+    {
+        margin-top: 10px;
+        height: 17%;
+    }
+    .competitions
+    {
+        width: 100%;
+    }
+}
+
+@media (any-pointer:none), (any-pointer:coarse)
+{
+    .navigation-bar button
+    {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .logo
+    {
+        width: 0px;
+    }
+    .small-logo-container
+    {
+        margin-top: 10px;
+        height: max(17%, 200px);
+        width: min(100%, 700px);
+    }
+    .competitions
+    {
+        width: 100%;
+    }
+    .text-container
+    {
+        font-size: 12px;
+    }
 }
