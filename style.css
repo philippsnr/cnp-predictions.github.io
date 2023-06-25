@@ -240,6 +240,22 @@ textarea
     justify-content: space-around;
 }
 
+.contact-done-after
+{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    font-size: 22px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 60px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
 
 .nav-list {
 	list-style: none;
