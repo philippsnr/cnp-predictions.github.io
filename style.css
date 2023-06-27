@@ -298,7 +298,45 @@ textarea
 	transform: scaleX(1);
 }
 
+.main-comp
+{
+    border-top: 3px solid #F8FABB;
+    border-bottom: 3px solid #F8FABB;
+    background-color: #444444;
+    height: 84%;
+    display: block;
+}
 
+.row
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border: 1px solid pink;
+}
+
+.th, .result, .ta
+{
+    color: #fff;
+}
+
+.th
+{   
+    width: 30%;
+    border: 1px solid pink;
+}
+
+.result
+{
+    width: 30%;
+    border: 1px solid pink;
+}
+
+.ta
+{
+    width: 30%;
+    border: 1px solid pink;
+}
 
 @media screen and (max-width: 700px) and (any-pointer:fine) {
     .logo
