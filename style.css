@@ -305,15 +305,16 @@ textarea
     background-color: #444444;
     height: 84%;
     align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
 }
 
 .row
 {
     margin: 20px;
     width: 100%;
-    height: 50px;
+    height: 120px;
     display: flex;
-    border: 1px solid pink;
 }
 
 .th, .result, .ta
@@ -322,7 +323,6 @@ textarea
     text-align: center;
     vertical-align: middle;
     display: table;
-    height: 100%;
 }
 
 .th p, .result p, .ta p
@@ -335,34 +335,35 @@ textarea
 .th
 {   
     width: 100%;
-    border: 1px solid pink;
 }
 
 .result
 {
     width: 50%;
-    border: 1px solid pink;
 }
 
 .ta
 {
     width: 100%;
-    border: 1px solid pink;
 }
 
 #all-games
 {
-    
+    margin-left: auto;
+    margin-right: auto;
+
     width: 60%;
-    
-    margin: auto;
     height: 100%;
 
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: auto;
 }
 
-.all-games::-webkit-scrollbar 
+.trikot
+{
+    padding: 20px;
+}
+
+#all-games::-webkit-scrollbar 
 {
     display: none;
 }
