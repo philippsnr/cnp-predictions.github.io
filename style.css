@@ -304,13 +304,14 @@ textarea
     border-bottom: 3px solid #F8FABB;
     background-color: #444444;
     height: 84%;
-    display: block;
+    align-items: center;
 }
 
 .row
 {
+    margin: 20px;
     width: 100%;
-    height: 30%;
+    height: 50px;
     display: flex;
     border: 1px solid pink;
 }
@@ -318,24 +319,52 @@ textarea
 .th, .result, .ta
 {
     color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    height: 100%;
+}
+
+.th p, .result p, .ta p
+{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
 }
 
 .th
 {   
-    width: 30%;
+    width: 100%;
     border: 1px solid pink;
 }
 
 .result
 {
-    width: 30%;
+    width: 50%;
     border: 1px solid pink;
 }
 
 .ta
 {
-    width: 30%;
+    width: 100%;
     border: 1px solid pink;
+}
+
+#all-games
+{
+    
+    width: 60%;
+    
+    margin: auto;
+    height: 100%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.all-games::-webkit-scrollbar 
+{
+    display: none;
 }
 
 @media screen and (max-width: 700px) and (any-pointer:fine) {
@@ -356,7 +385,6 @@ textarea
 
 @media (any-pointer:none), (any-pointer:coarse)
 {
-
     .nav-list
     {
         font-size: 14px;
