@@ -309,6 +309,19 @@ textarea
     padding: 40px;
 }
 
+.info-button
+{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.i
+{
+    width: 50px;
+    height: 50px;
+}
+
 .row
 {
     margin: 20px;
