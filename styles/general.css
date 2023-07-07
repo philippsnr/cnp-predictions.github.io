@@ -1,0 +1,175 @@
+.container
+{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background-color: aqua;
+}
+
+.navigation-bar
+{
+    background-color: #444444;
+    height: 8%;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    grid-gap: 14px;
+    padding: 10px;
+}
+
+.main
+{
+    border-top: 3px solid #F8FABB;
+    border-bottom: 3px solid #F8FABB;
+    background-color: #444444;
+    height: 84%;
+    display: flex;
+}
+
+.bottom
+{
+    background-color: #444444;
+    height: 8%;
+}
+
+.logo
+{
+    margin: auto;
+}
+
+.competitions
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: max(25%, 500px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.flag
+{
+    border: 2px solid #F8FABB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#small-logo-container
+{
+    width : 100%;
+    background-image: url("..\\assets\\cnp-predictions-logo\\png\\logo-no-background.png");
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    visibility: hidden;
+}
+
+.text-container::-webkit-scrollbar 
+{
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.text-container 
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: "Lucida Sans Unicode", Times, serif;
+    font-size: 20px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+    
+    font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.link {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+.link::before,
+.link::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #00d1cd;
+	transform: scaleX(0);
+	transition: transform 0.25s;
+}
+.link::before {
+	top: -3px;
+	transform-origin: left;
+}
+.link::after {
+	bottom: -3px;
+	transform-origin: right;
+}
+.link:hover::before,
+.link:hover::after,
+.active::before,
+.active::after {
+	transform: scaleX(1);
+}
+
+/*pc*/
+@media screen and (max-width: 700px) and (any-pointer:fine) {
+    .logo
+    {
+        width: 0px;
+    }
+    #small-logo-container
+    {
+        margin-top: 10px;
+        height: 120px;
+        visibility: visible;
+    }
+    .competitions, .contact
+    {
+        width: 100%;
+    }
+}
+
+/*phone*/
+@media (any-pointer:none), (any-pointer:coarse)
+{
+    .nav-list
+    {
+        font-size: 14px;
+    }
+    .logo
+    {
+        width: 0px;
+    }
+    #small-logo-container
+    {
+        margin-top: 10px;
+        height: max(17%, 200px);
+        width: min(100%, 700px);
+        visibility: visible;
+    }
+    .competitions, .contact
+    {
+        width: 100%;
+    }
+    .text-container
+    {
+        font-size: 12px;
+    }
+}

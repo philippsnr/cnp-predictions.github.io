@@ -1,0 +1,111 @@
+.main-comp
+{
+    border-top: 3px solid #F8FABB;
+    border-bottom: 3px solid #F8FABB;
+    background-color: #444444;
+    height: 84%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.info
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.info-button
+{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.info-content
+{
+    position: absolute;
+    left: 5%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 12px;
+}
+
+.info:hover .info-content
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.row
+{
+    margin: 20px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.th, .result, .ta
+{
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+}
+
+.th p, .result p, .ta p
+{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+.th
+{   
+    width: 100%;
+}
+
+.result
+{
+    width: 50%;
+}
+
+.ta
+{
+    width: 100%;
+}
+
+#all-games
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 60%;
+    height: 100%;
+
+    overflow: auto;
+}
+
+.trikot
+{
+    padding: 20px;
+}
+
+#all-games::-webkit-scrollbar 
+{
+    display: none;
+}

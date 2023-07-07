@@ -1,0 +1,170 @@
+.contact-form
+{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode", Times, serif;
+}
+  
+.contact-form label 
+{
+    color: #F8FABB;
+    font-size: 20px;
+}
+  
+.contact-form .heading 
+{
+    font-size: 24px;
+    color: #00d1cd;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+  
+.contact-form form 
+{
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact-form label 
+{
+    margin-bottom: 10px;
+}
+
+.text-input 
+{
+    background-color: #FAFBD9;
+    resize: none;
+    width: 250px;
+}
+  
+textarea 
+{
+    background-color: #FAFBD9;
+    resize: none;
+    height: 80px;
+    width: 250px;
+}
+  
+.contact-form input, .contact-form textarea 
+{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+  
+.contact-form input:focus, .contact-form textarea:focus 
+{
+    outline: none;
+    box-shadow: 0 0 5px #00d1cd;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+  
+.contact-form button[type="submit"] 
+{
+    background-color: #00d1cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:before 
+{
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"]:hover 
+{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: max(25%, 500px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.contact-done-after
+{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    font-size: 22px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 60px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.beige-button
+{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    cursor: pointer;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 24px;
+    font-size: 22px;
+    color: #F8FABB;
+    border: 2px solid #F8FABB;
+    border-radius: 60px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+
+.beige-button::before
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: #F8FABB;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.beige-button:hover::before
+{
+    scale: 6;
+}
+  
+.beige-button:hover
+{
+    color: #444444;
+    scale: 1.1;
+    box-shadow: 0 0px 20px #F8FABB;
+}
+  
+.beige-button:active
+{
+    scale: 1;
+}
