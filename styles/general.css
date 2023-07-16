@@ -42,6 +42,7 @@
 {
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
     width: max(25%, 500px);
     display: flex;
     flex-direction: column;
@@ -127,24 +128,6 @@
 	transform: scaleX(1);
 }
 
-/*pc*/
-@media screen and (max-width: 700px) and (any-pointer:fine) {
-    .logo
-    {
-        width: 0px;
-    }
-    #small-logo-container
-    {
-        margin-top: 10px;
-        height: 120px;
-        visibility: visible;
-    }
-    .competitions, .contact
-    {
-        width: 100%;
-    }
-}
-
 .beige-button
 {
     border-radius: 12px;
@@ -198,6 +181,24 @@
 .beige-button:active
 {
     scale: 1;
+}
+
+/*pc*/
+@media screen and (max-width: 700px) and (any-pointer:fine) {
+    .logo
+    {
+        width: 0px;
+    }
+    #small-logo-container
+    {
+        margin-top: 10px;
+        height: 120px;
+        visibility: visible;
+    }
+    .competitions, .contact
+    {
+        width: 100%;
+    }
 }
 
 /*phone*/
