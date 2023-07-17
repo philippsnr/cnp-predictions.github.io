@@ -1,5 +1,4 @@
-.main-comp
-{
+.main-comp {
     border-top: 3px solid #F8FABB;
     border-bottom: 3px solid #F8FABB;
     background-color: #444444;
@@ -9,15 +8,13 @@
     padding: 40px;
 }
 
-.info
-{
+.info {
     position: relative;
     display: flex;
     align-items: center;
 }
 
-.info-button
-{
+.info-button {
     padding: 10px;
     color: white;
     background-color: black;
@@ -32,8 +29,7 @@
     position: relative;
 }
 
-.info-content
-{
+.info-content {
     position: absolute;
     left: 5%;
     background-color: black;
@@ -45,52 +41,48 @@
     border-radius: 12px;
 }
 
-.info:hover .info-content
-{
+.info:hover .info-content {
     visibility: visible;
     opacity: 1;
 }
 
-.row
-{
+.row {
     margin: 20px;
     width: 100%;
     height: 120px;
     display: flex;
 }
 
-.th, .result, .ta
-{
+.th,
+.result,
+.ta {
     color: #fff;
     text-align: center;
     vertical-align: middle;
     display: table;
 }
 
-.th p, .result p, .ta p
-{
-    display: table-cell; 
-    vertical-align: middle; 
-    text-align: center; 
+.th p,
+.result p,
+.ta p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.th
-{   
+.th {
     width: 100%;
 }
 
-.result
-{
+.result {
     width: 50%;
 }
 
-.ta
-{
+.ta {
     width: 100%;
 }
 
-#all-games
-{
+#all-games {
     margin-left: auto;
     margin-right: auto;
 
@@ -100,12 +92,41 @@
     overflow: auto;
 }
 
-.trikot
-{
+.trikot {
     padding: 20px;
 }
 
-#all-games::-webkit-scrollbar 
-{
+#all-games::-webkit-scrollbar {
     display: none;
+}
+
+/*pc*/
+@media screen and (max-width: 700px) and (any-pointer:fine) {}
+
+/*phone*/
+@media (any-pointer:none),
+(any-pointer:coarse) {
+    #all-games {
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 90%;
+        height: 100%;
+
+        overflow: auto;
+    }
+
+    .trikot {
+        width: 51.2px;
+        height: 38px;
+        padding: 5px;
+    }
+
+    .row {
+        margin: 5px;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+    }
 }
