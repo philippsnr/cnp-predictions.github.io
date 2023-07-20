@@ -28,9 +28,9 @@
 }
 
 .bottom {
+    display: flex;
     background-color: #444444;
     height: 8%;
-    padding-bottom: 80px; /* Add padding to create space for the social media bar */
 }
 
 .logo
@@ -52,17 +52,16 @@
 .flag
 {
     border: 2px solid #F8FABB;
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
     margin-right: 20px;
+    height: 90%;
 }
 
 #small-logo-container
 {
     width : 100%;
     background-image: url("..\\assets\\cnp-predictions-logo\\png\\logo-no-background.png");
-    
+
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -91,7 +90,7 @@
 	list-style: none;
 	display: flex;
 	align-items: center;
-	gap: 40px;
+	gap: 0px 40px;
     
     font-size: 20px;
 	font-family: 'Poppins', sans-serif;
@@ -128,12 +127,14 @@
 	transform: scaleX(1);
 }
 
+
 .beige-button
 {
     border-radius: 12px;
     display: flex;
     align-items: center;
-    width: 100%;
+    height: min(75px, 17%);
+    margin-bottom: 3px;
 
     cursor: pointer;
     position: relative;
@@ -157,8 +158,6 @@
     position: absolute;
     inset: 0;
     margin: auto;
-    width: 50px;
-    height: 50px;
     border-radius: inherit;
     scale: 0;
     z-index: -1;
