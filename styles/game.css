@@ -1,0 +1,31 @@
+.main-game {
+    border-top: 3px solid #F8FABB;
+    border-bottom: 3px solid #F8FABB;
+    background-color: #444444;
+    height: 84%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#game-header {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+#game-teams {
+    display: grid;
+    grid-template-columns: 45vw 10vw 45vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#team-left,
+#team-right,
+#prediction {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
