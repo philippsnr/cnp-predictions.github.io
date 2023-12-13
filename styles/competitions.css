@@ -68,6 +68,10 @@
     border-radius: 25px;
 }
 
+.middle{
+    display: flex;
+}
+
 .th,
 .result,
 .prediction-button,
@@ -111,6 +115,10 @@
     display: flex;
     width: 55px;
     height: 55px;
+}
+
+.hidden {
+    display: none;
 }
 
 #all-games {
