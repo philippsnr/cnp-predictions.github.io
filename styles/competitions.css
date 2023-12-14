@@ -108,11 +108,11 @@
 }
 
 .prediction-button{
-    padding-top: 35px;
-    padding-bottom: 35px;
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
+    align-items: center;
+    display: flex;
 }
 .predict-icon {
     display: flex;
