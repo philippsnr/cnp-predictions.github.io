@@ -27,14 +27,16 @@
     border-top: 3px solid #F8FABB;
     border-bottom: 3px solid #F8FABB;
     background-color: #444444;
-    height: 84%;
+    height: 82%;
     display: flex;
 }
 
 .bottom {
     display: flex;
     background-color: #444444;
-    height: 8%;
+    height: 10%;
+    justify-content: center;
+    padding: 5px;
 }
 
 .logo
