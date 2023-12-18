@@ -1,5 +1,5 @@
 .spinner {
-    
+
     animation: spin 1s linear infinite;
 
     width: 30px;
@@ -7,9 +7,9 @@
 
     position: relative;
     top: 50%;
-    
+
     border: 5px solid rgba(255, 255, 255, 0.3);
-    border-top: 5px solid #CD0000;
+    border-top: 5px solid #00D1CD;
     border-radius: 50%;
 }
 
@@ -20,5 +20,15 @@
 
     100% {
         transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.8);
     }
 }
