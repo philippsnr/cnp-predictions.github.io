@@ -119,6 +119,7 @@
     cursor: pointer;
     align-items: center;
     display: flex;
+    animation: pulse .75s ease-in-out infinite alternate;
 }
 .predict-icon {
     display: flex;
@@ -196,3 +197,13 @@
         height: 40px;
     }
 }
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
