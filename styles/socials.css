@@ -1,51 +1,106 @@
-.Btn {
-    border: none;
-    border-radius: 50%;
+/*Instagram*/
+.insta-Btn {
     width: 45px;
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-duration: .4s;
-    cursor: pointer;
+    border: none;
+    background-color: transparent;
     position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+    z-index: 2;
+}
+
+.insta-svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.insta-BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    overflow: hidden;
-  }
-  
-  .svgIcon {
-    transition-duration: .3s;
-  }
-  
-  .svgIcon path {
-    fill: white;
-  }
-  
-  .text {
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    z-index: -1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all .3s;
+}
+
+.insta-Btn:hover .insta-BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+}
+
+.insta-Btn:hover .insta-svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+}
+
+/*WhatsApp*/
+.whatsapp-Btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 2;
+}
+
+.whatsapp-svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.whatsapp-BG {
     position: absolute;
-    color: rgb(255, 255, 255);
-    width: 120px;
-    font-weight: 600;
-    opacity: 0;
-    transition-duration: .4s;
-  }
-  
-  .Btn:hover {
-    width: 110px;
-    transition-duration: .4s;
-    border-radius: 30px;
-  }
-  
-  .Btn:hover .text {
-    opacity: 1;
-    transition-duration: .4s;
-  }
-  
-  .Btn:hover .svgIcon {
-    opacity: 0;
-    transition-duration: .3s;
-  }
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #075e54;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.whatsapp-Btn:hover .whatsapp-BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+}
+
+.whatsapp-Btn:hover .whatsapp-svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+}
