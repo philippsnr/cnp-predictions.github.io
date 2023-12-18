@@ -15,6 +15,12 @@
     margin-bottom: 20px;
 }
 
+.matchday-wait {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
 .info {
     position: relative;
     display: flex;
