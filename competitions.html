@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/general.css">
@@ -12,8 +13,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8294899955292223"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8294899955292223" crossorigin="anonymous"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script type="module" src="lib/competitions.js"></script>
+     
      
 </head>
 
@@ -27,7 +32,7 @@
   gtag('config', 'G-7YXMEKRV7C');
 </script>
 
-<body onload="update_ui()">
+<body>
     <div class="container">
         <nav class="navigation-bar">
             <ul class="nav-list">
@@ -49,6 +54,5 @@
             
         </div>
     </div>
-    <script src="lib/competitions.js"></script>
 </body>
 </html>
